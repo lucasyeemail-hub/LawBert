@@ -1,0 +1,48 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files (if Python is selected)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and generated output (if JavaScript is selected)
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+
+# Model weights and caches
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+models/
+model-cache/
+
+# User documents and extracted text; keep sample data synthetic
+uploads/
+data/private/
+*.pdf
+*.doc
+*.docx
+*.odt
+*.rtf
+*.txt
+*.text
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
